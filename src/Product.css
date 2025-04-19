@@ -1,0 +1,19 @@
+.Product{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 20%;
+    height: 150px;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid goldenrod;
+}
+.content{
+    text-align: left;
+}
+.oldPrice{
+    text-decoration: line-through;
+}
+.newPrice, .head{
+    font-weight: bold;
+}
